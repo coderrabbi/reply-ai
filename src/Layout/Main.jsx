@@ -10,7 +10,7 @@ const Main = () => {
     <div>
       <Navbar />
       <div className="flex relative">
-        <div className=" lg:w-[30%] w-[5%]   ">
+        <div className=" lg:w-[30%] w-[6%]   ">
           {open ? (
             <CgClose
               onClick={() => setOpen(!open)}
@@ -40,7 +40,7 @@ const Main = () => {
           </div>
           <Sidebar />
         </div>
-        <div className="lg:w-[70%] w-[95%]">
+        <div className="lg:w-[70%] w-[94%]">
           <Outlet></Outlet>
         </div>
       </div>
