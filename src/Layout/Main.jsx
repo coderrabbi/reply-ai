@@ -10,15 +10,15 @@ const Main = () => {
     <div>
       <Navbar />
       <div className="flex relative">
-        <div className=" lg:w-[30%] w-[6%]   ">
+        <div className=" lg:w-[410px] w-[6%]   ">
           {open ? (
             <CgClose
               onClick={() => setOpen(!open)}
-              className="lg:hidden block md:text-[35px] text-[25px]  text-white"
+              className="lg:hidden block md:text-[35px] text-[25px] cursor-pointer  text-white"
             />
           ) : (
             <RxHamburgerMenu
-              className="lg:hidden block md:text-[35px] text-[25px]  text-white"
+              className="lg:hidden block md:text-[35px] text-[25px] cursor-pointer   text-white"
               onClick={() => setOpen(!open)}
             />
           )}
@@ -35,12 +35,12 @@ const Main = () => {
           <div className=" bg-[#171127]">
             <CgClose
               onClick={() => setOpen(!open)}
-              className="lg:hidden block md:text-[35px] text-[25px]  text-white"
+              className="lg:hidden block md:text-[35px] cursor-pointer  text-[25px]  text-white"
             />
           </div>
           <Sidebar />
         </div>
-        <div className="lg:w-[70%] w-[94%]">
+        <div className="w-full">
           <Outlet></Outlet>
         </div>
       </div>

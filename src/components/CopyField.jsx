@@ -5,7 +5,7 @@ import sms from "../assets/sms.png";
 import arrow from "../assets/arrow-right.png";
 const CopyField = () => {
   return (
-    <div className="h-[100vh] pt-5">
+    <div className="2xl:h-[150vh] h-[150vh] pt-5">
       {/* heading text  */}
       <div>
         <h2 className="text-[27px] text-primary font-[700] tracking-[0.556px]">

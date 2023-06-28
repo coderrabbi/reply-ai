@@ -15,10 +15,10 @@ function Navbar() {
   ];
   return (
     <div className="flex justify-between ">
-      <div className=" lg:w-[30%] w-[50%] bg-bgColor  flex  px-10 py-5">
+      <div className=" w-[410px] bg-bgColor  flex  px-10 py-5">
         <img src={logo} alt="reply ai" className="cursor-pointer" />
       </div>
-      <div className=" w-[70%]  gap-4 items-center justify-end px-10 lg:flex hidden">
+      <div className="  gap-4 items-center justify-end px-10 lg:flex hidden">
         <ul className=" flex gap-3 items-center justify-end">
           {listItems.map((item) => {
             return (
@@ -48,7 +48,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="w-[50%] flex justify-end lg:hidden px-5 items-center relative bg-bgColor ">
+      <div className="w-full flex justify-end lg:hidden px-5 items-center relative bg-bgColor ">
         {open ? (
           <CgClose
             onClick={() => setOpen(!open)}
