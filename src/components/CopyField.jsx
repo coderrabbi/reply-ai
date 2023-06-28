@@ -73,13 +73,13 @@ const CopyField = () => {
               Creativity Level
             </label>
             <div className="flex gap-3">
-              <button className="text-[16px] text-white  flex items-center bg-primary border-none rounded-[24px]  ">
+              <button className="lg:text-[16px] text-[10px] text-white  flex items-center bg-primary border-none rounded-[24px]  ">
                 Balanced
               </button>
-              <button className="text-[16px] text-white text-center bg-transparent  border-[#bababa] hover:border-[#bababa] rounded-[24px] ">
+              <button className="lg:text-[16px] text-[10px] text-white text-center bg-transparent  border-[#bababa] hover:border-[#bababa] rounded-[24px] ">
                 Intemidiate
               </button>
-              <button className="text-[16px] text-white bg-transparent  border-[#bababa] hover:border-[#bababa] rounded-[24px] ">
+              <button className="lg:text-[16px] text-[10px] text-white bg-transparent  border-[#bababa] hover:border-[#bababa] rounded-[24px] ">
                 Creative
               </button>
             </div>

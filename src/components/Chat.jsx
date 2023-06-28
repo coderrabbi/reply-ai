@@ -1,5 +1,6 @@
 import linef from "../assets/Line 78.png";
 import line2 from "../assets/Line 79.png";
+import send from "../assets/send.png";
 const Chat = () => {
   return (
     <div className="h-[100vh] pt-4 ">
@@ -60,7 +61,9 @@ const Chat = () => {
         <input
           type="text"
           className="w-full bg-white outline-none text-black font-[400]"
+          placeholder="Can you help me in . . ."
         />
+        <img src={send} alt="" />
       </div>
     </div>
   );
