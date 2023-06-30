@@ -9,7 +9,7 @@ const Sidebar = () => {
   const [active, setActive] = useState(false);
   console.log(active);
   return (
-    <div className="h-[100vh]">
+    <div className="h-[100vh] lg:w-[410px] w-[320px]">
       <Tabs>
         <TabList className="flex bg-[#463967]">
           <Tab className="w-[50%]">

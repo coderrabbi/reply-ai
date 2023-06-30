@@ -3,7 +3,7 @@ import line2 from "../assets/Line 79.png";
 import send from "../assets/send.png";
 const Chat = () => {
   return (
-    <div className="h-[100vh] pt-4 ">
+    <div className="h-[100vh] overflow-y-scroll pt-4 ">
       <div className="flex flex-col gap-5">
         {/* friend message */}
         <div className="flex items-end gap-3">

@@ -28,7 +28,7 @@ const Main = () => {
         </div>
         <div
           className={`${
-            open ? "block absolute w-[300px] z-30 slide-right " : "hidden"
+            open ? "block absolute w-[320px] z-30 slide-right " : "hidden"
           }`}
         >
           {" "}
@@ -40,7 +40,7 @@ const Main = () => {
           </div>
           <Sidebar />
         </div>
-        <div className="w-full">
+        <div className="w-full h-[100vh] ">
           <Outlet></Outlet>
         </div>
       </div>

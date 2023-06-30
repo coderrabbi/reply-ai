@@ -5,7 +5,7 @@ import sms from "../assets/sms.png";
 import arrow from "../assets/arrow-right.png";
 const CopyField = () => {
   return (
-    <div className="2xl:h-[150vh] h-[150vh] pt-5">
+    <div className=" overflow-y-scroll h-[100vh] pt-5">
       {/* heading text  */}
       <div>
         <h2 className="text-[27px] text-primary font-[700] tracking-[0.556px]">
@@ -21,10 +21,10 @@ const CopyField = () => {
         <div className="mt-10 flex flex-col gap-6">
           {/* select language */}
           <div className="flex flex-col gap-5">
-            <label htmlFor="" className="text-[14.246px] px-4">
+            <label htmlFor="" className="text-[14.246px] ">
               Select Language
             </label>
-            <div className="bg-white flex gap-2 items-center px-4 rounded-[7.2px] border  border-primary shadow-inputShadow text-white text-[14.79px] font-[500] max-w-[317px] h-[57px] text-center ">
+            <div className="bg-white flex gap-2 items-center px-4 rounded-[7.2px] border  border-primary shadow-inputShadow text-white text-[14.79px] font-[500] max-w-[362px] h-[57px] text-center ">
               <img src={textIcon} alt="" className="w-[21px] h-[21px]" />
               <select
                 type="select"
@@ -37,10 +37,10 @@ const CopyField = () => {
           </div>
           {/* select tone */}
           <div className="flex flex-col gap-5">
-            <label htmlFor="" className="text-[14.246px] px-4">
+            <label htmlFor="" className="text-[14.246px] ">
               Select Tone
             </label>
-            <div className="bg-white flex gap-2 items-center px-4 rounded-[7.2px] border  border-primary shadow-inputShadow text-white text-[14.79px] font-[500] max-w-[317px] h-[57px] text-center ">
+            <div className="bg-white flex gap-2 items-center px-4 rounded-[7.2px] border  border-primary shadow-inputShadow text-white text-[14.79px] font-[500] max-w-[362px] h-[57px] text-center ">
               <img src={note} alt="" className="w-[21px] h-[21px]" />
               <select
                 type="select"
@@ -53,10 +53,10 @@ const CopyField = () => {
           </div>
           {/* choose use case */}
           <div className="flex flex-col gap-5">
-            <label htmlFor="" className="text-[14.246px] px-4">
+            <label htmlFor="" className="text-[14.246px] ">
               Choose Use Case
             </label>
-            <div className="bg-white flex gap-2 items-center px-4 rounded-[7.2px] border  border-primary shadow-inputShadow text-white text-[14.79px] font-[500] max-w-[317px] h-[57px] text-center ">
+            <div className="bg-white flex gap-2 items-center px-4 rounded-[7.2px] border  border-primary shadow-inputShadow text-white text-[14.79px] font-[500] max-w-[362px] h-[57px] text-center ">
               <img src={map} alt="" className="w-[21px] h-[21px]" />
               <select
                 type="select"
@@ -69,17 +69,17 @@ const CopyField = () => {
           </div>
           {/* creativity level */}
           <div className="flex flex-col gap-5">
-            <label htmlFor="" className="text-[14.246px] px-4">
+            <label htmlFor="" className="text-[14.246px]">
               Creativity Level
             </label>
-            <div className="flex gap-3">
-              <button className="lg:text-[16px] text-[10px] text-white  flex items-center bg-primary border-none rounded-[24px]  ">
+            <div className="flex justify-center gap-1 max-w-[362px] bg-white  rounded-[7.2px] border  border-primary shadow-inputShadow h-[57px] py-1">
+              <button className="lg:text-[14px] text-[10px] text-white  flex items-center bg-primary border-none rounded-[6.5px] py-[13px] px-[20px]  ">
                 Balanced
               </button>
-              <button className="lg:text-[16px] text-[10px] text-white text-center bg-transparent  border-[#bababa] hover:border-[#bababa] rounded-[24px] ">
+              <button className="lg:text-[14px] text-[10px] text-white  flex items-center bg-primary border-none rounded-[6.5px] py-[13px] px-[20px] ">
                 Intemidiate
               </button>
-              <button className="lg:text-[16px] text-[10px] text-white bg-transparent  border-[#bababa] hover:border-[#bababa] rounded-[24px] ">
+              <button className="lg:text-[14px] text-[10px] text-white  flex items-center bg-primary border-none rounded-[6.5px] py-[13px] px-[20px] ">
                 Creative
               </button>
             </div>
@@ -89,7 +89,7 @@ const CopyField = () => {
             <label htmlFor="" className="text-[14.246px] px-4">
               Instruction
             </label>
-            <div className="  rounded-[7.2px] border p-10 max-w-[317px] relative border-primary shadow-inputShadow bg-white text-white text-[14.79px] font-[500]   text-center ">
+            <div className="  rounded-[7.2px] border p-10 max-w-[362px] relative border-primary shadow-inputShadow bg-white text-white text-[14.79px] font-[500]   text-center ">
               <img
                 src={sms}
                 alt=""
